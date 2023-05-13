@@ -1,17 +1,17 @@
 import { createHash } from "crypto";
 
-import prologue from "./prologue.sh";
+import prologue from "./src/prologue.sh";
 
-import centos from "./os/centos.sh";
-import debian from "./os/debian.sh";
-import osx from "./os/osx.sh";
-import redhat from "./os/redhat.sh";
-import suse from "./os/suse.sh";
-import ubuntu from "./os/ubuntu.sh";
+import centos from "./src/os/centos.sh";
+import debian from "./src/os/debian.sh";
+import osx from "./src/os/osx.sh";
+import redhat from "./src/os/redhat.sh";
+import suse from "./src/os/suse.sh";
+import ubuntu from "./src/os/ubuntu.sh";
 
-import npm from "./pkg/npm.sh";
+import npm from "./src/pkg/npm.sh";
 
-import epilogue from "./epilogue.sh";
+import epilogue from "./src/epilogue.sh";
 
 export type ScannerOptions = {
   ingestUrl: string;

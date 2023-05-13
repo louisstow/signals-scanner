@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "rootDir": "./",
     "outDir": "./dist",
     "target": "es6",
@@ -16,5 +16,6 @@
     "forceConsistentCasingInFileNames": true,
     "declaration": true
   },
+
   "exclude": ["./dist", "**/*.spec.ts"]
 }
